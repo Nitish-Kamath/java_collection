@@ -1,0 +1,14 @@
+few points:-
+dynamic array
+like vector in c++
+size can be modified
+found in java.util package
+implents list interface
+memory is allocated in random fashion
+manipulation is slower bcz of shifting 
+need to use Wrapper class for creation like Integer, String,Character
+ArrayList<Integer> al = new ArrayList<Integer>();
+NOTE:- remember to import java.util.*; to use all functionality of collection
+ArrayList cannot store primitives rather it store object data type (like integer object )
+alist.add(10) -> alist.add(integer.valueOf(10)) 
+But Array can store primitives as well as objects
