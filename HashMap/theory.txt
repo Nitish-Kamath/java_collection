@@ -1,0 +1,16 @@
+present inside java.util package (import java.util.HashMap )
+data is stored in null value pair
+duplicate key will replace old value
+allows to store null keys as well(max one)
+null values can be any number of times
+inheritance -> extends for class and implements for interface
+
+extends AbstractMap(which in turns implements Map)
+ordering may vary 
+
+
+
+
+
+
+
