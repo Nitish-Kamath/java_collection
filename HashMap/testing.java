@@ -16,6 +16,9 @@ class testing {
         System.out.println(hm);
         System.out.println(Arrays.asList(hm));
         System.out.println(Collections.singletonList(hm));
+        
+//         best method for printing
+         hmap.forEach((k, v) -> System.out.println(k + "\t" + v));
 
 
     }
