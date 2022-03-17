@@ -19,7 +19,17 @@ class testing {
         
 //         best method for printing
          hmap.forEach((k, v) -> System.out.println(k + "\t" + v));
-
+        
+        
+//         printing the element using iterator
+//         why<Integer> bcz key value is Integer
+//         .keySet() -> MASTER POINT
+       Iterator<Integer> it = hm.keySet().iterator();
+        System.out.println("Value of Key value of Hmap");
+        while (it.hasNext()) {
+            int key = (int) it.next();
+            System.out.println("Roll no:  " + key + "     name:   " + hm.get(key));
+        }
 
     }
 }
