@@ -1,6 +1,6 @@
 present inside java.util package (import java.util.HashMap )
-data is stored in null value pair
-duplicate key will replace old value
+data is stored in key-value pair
+duplicate key will replace old value(like 1: "abc" now u assigned as 1: "bcd" then 1 will not point to the "bcd")
 allows to store null keys as well(max one)
 null values can be any number of times
 inheritance -> extends for class and implements for interface
