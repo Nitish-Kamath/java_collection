@@ -1,0 +1,18 @@
+There is no ordering in hashmap.
+we can sort on the basis of key and values.
+sorting on the basis of key:-
+TreeMap
+LinkedHashMap
+Algo for TreeMap:-
+We use TreeMap constructor to sort the elements and pass the object of Hashmap class as an argument.
+Algo for LinkedHashMap:-
+get key set
+convert set into list
+sort the list
+add sorted list into LinkedHashMap
+
+LINKEDHASHMAP GURANTEES THE INSERTION ORDER OF MAPPINGS.
+
+We cannot use TreeMap to sort values because TreeMap sorts elements by Keys.
+
+
